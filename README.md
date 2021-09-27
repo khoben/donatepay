@@ -10,8 +10,8 @@
 
 1. Create .env file with token
 
-    ```python
-    TOKEN = "YOUR-TOKEN-HERE"
+    ```sh
+    TOKEN={YOUR-TOKEN-HERE}
     ```
 
 2. Create and activate the virtual environment (not necessary)
