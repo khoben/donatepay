@@ -1,19 +1,26 @@
 # Donatepay WebSocket connector
-## Setup
-1. Create .env file
+## Setup (tested on python 3.9.5)
+
+0. Get DonatePay token:
+
+    Grab token from [widget link](https://donatepay.ru/donation/notifications/)
+    ```sh
+    https://widget.donatepay.ru/alert-box/widget/{YOUR-TOKEN-HERE}
+    ```
+
+1. Create .env file with token
 
     ```python
     TOKEN = "YOUR-TOKEN-HERE"
     ```
-    [Here you can get token](https://donatepay.ru/donation/notifications/)
 
-    https://widget.donatepay.ru/alert-box/widget/[YOUR-TOKEN]
+2. Create and activate the virtual environment (not necessary)
 
-2. Install depencies
+3. Install dependencies
     ```sh
     pip install -r requirements.txt
    ```
-3. Run it
+4. Run it
     ```sh
     python main.py
    ```
